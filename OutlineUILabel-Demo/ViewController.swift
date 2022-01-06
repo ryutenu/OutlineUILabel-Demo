@@ -15,15 +15,14 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         
         let attrString = NSAttributedString(
-            string: "Outline UILabel",
+            string: "label",
             attributes: [
-                NSAttributedString.Key.strokeColor: UIColor.white,
-                NSAttributedString.Key.strokeWidth: -5.0,
+                NSAttributedString.Key.font: UIFont(name: "OtomanopeeOne-Regular", size: 60) ?? UIFont.boldSystemFont(ofSize: 60),
                 NSAttributedString.Key.foregroundColor: UIColor.purple,
-                NSAttributedString.Key.font: UIFont.boldSystemFont(ofSize: 50)
+                NSAttributedString.Key.strokeColor: UIColor.white,
+                NSAttributedString.Key.strokeWidth: -5.0
             ])
         
         titleLabel.attributedText = attrString
     }
 }
-

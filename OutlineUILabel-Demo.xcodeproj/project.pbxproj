@@ -13,6 +13,7 @@
 		E78935CE2786AD5900B7686C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E78935CC2786AD5900B7686C /* Main.storyboard */; };
 		E78935D02786AD5A00B7686C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E78935CF2786AD5A00B7686C /* Assets.xcassets */; };
 		E78935D32786AD5A00B7686C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E78935D12786AD5A00B7686C /* LaunchScreen.storyboard */; };
+		E78935DC2786C26E00B7686C /* OtomanopeeOne-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E78935DB2786C26E00B7686C /* OtomanopeeOne-Regular.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		E78935CF2786AD5A00B7686C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E78935D22786AD5A00B7686C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E78935D42786AD5A00B7686C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E78935DB2786C26E00B7686C /* OtomanopeeOne-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OtomanopeeOne-Regular.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 		E78935C52786AD5900B7686C /* OutlineUILabel-Demo */ = {
 			isa = PBXGroup;
 			children = (
+				E78935DA2786C23500B7686C /* Fonts */,
 				E78935C62786AD5900B7686C /* AppDelegate.swift */,
 				E78935C82786AD5900B7686C /* SceneDelegate.swift */,
 				E78935CA2786AD5900B7686C /* ViewController.swift */,
@@ -65,6 +68,14 @@
 				E78935D42786AD5A00B7686C /* Info.plist */,
 			);
 			path = "OutlineUILabel-Demo";
+			sourceTree = "<group>";
+		};
+		E78935DA2786C23500B7686C /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				E78935DB2786C26E00B7686C /* OtomanopeeOne-Regular.ttf */,
+			);
+			path = Fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,6 +137,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E78935D32786AD5A00B7686C /* LaunchScreen.storyboard in Resources */,
+				E78935DC2786C26E00B7686C /* OtomanopeeOne-Regular.ttf in Resources */,
 				E78935D02786AD5A00B7686C /* Assets.xcassets in Resources */,
 				E78935CE2786AD5900B7686C /* Main.storyboard in Resources */,
 			);
