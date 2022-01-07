@@ -22,20 +22,34 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="k6T-s9-cz4">
-                                <rect key="frame" x="112.66666666666667" y="362.66666666666669" width="149.66666666666663" height="87"/>
+                                <rect key="frame" x="112.66666666666667" y="159.66666666666666" width="149.66666666666663" height="87"/>
                                 <fontDescription key="fontDescription" name="OtomanopeeOne-Regular" family="Otomanopee One" pointSize="60"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qjJ-eT-QeZ" customClass="DecorateLabel" customModule="OutlineUILabel_Demo" customModuleProvider="target">
+                                <rect key="frame" x="112.66666666666667" y="565.66666666666663" width="149.66666666666663" height="87"/>
+                                <fontDescription key="fontDescription" name="OtomanopeeOne-Regular" family="Otomanopee One" pointSize="60"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="characterSpacing">
+                                        <real key="value" value="5"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
                             </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemGrayColor"/>
                         <constraints>
+                            <constraint firstItem="qjJ-eT-QeZ" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="QYx-Sm-f38"/>
+                            <constraint firstItem="qjJ-eT-QeZ" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" multiplier="1.5" id="c28-3d-qHG"/>
                             <constraint firstItem="k6T-s9-cz4" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="c8k-4L-w4A"/>
-                            <constraint firstItem="k6T-s9-cz4" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="qj2-sa-qzj"/>
+                            <constraint firstItem="k6T-s9-cz4" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" multiplier="0.5" id="qj2-sa-qzj"/>
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="subtitleLabel" destination="qjJ-eT-QeZ" id="2ND-Jd-gb3"/>
                         <outlet property="titleLabel" destination="k6T-s9-cz4" id="Cw6-2r-q4N"/>
                     </connections>
                 </viewController>

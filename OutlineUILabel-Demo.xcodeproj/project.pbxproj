@@ -14,6 +14,7 @@
 		E78935D02786AD5A00B7686C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E78935CF2786AD5A00B7686C /* Assets.xcassets */; };
 		E78935D32786AD5A00B7686C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E78935D12786AD5A00B7686C /* LaunchScreen.storyboard */; };
 		E78935DC2786C26E00B7686C /* OtomanopeeOne-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E78935DB2786C26E00B7686C /* OtomanopeeOne-Regular.ttf */; };
+		E78935DE2787E57A00B7686C /* DecorateLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E78935DD2787E57A00B7686C /* DecorateLabel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		E78935D22786AD5A00B7686C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E78935D42786AD5A00B7686C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E78935DB2786C26E00B7686C /* OtomanopeeOne-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OtomanopeeOne-Regular.ttf"; sourceTree = "<group>"; };
+		E78935DD2787E57A00B7686C /* DecorateLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DecorateLabel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +64,7 @@
 				E78935C62786AD5900B7686C /* AppDelegate.swift */,
 				E78935C82786AD5900B7686C /* SceneDelegate.swift */,
 				E78935CA2786AD5900B7686C /* ViewController.swift */,
+				E78935DD2787E57A00B7686C /* DecorateLabel.swift */,
 				E78935CC2786AD5900B7686C /* Main.storyboard */,
 				E78935CF2786AD5A00B7686C /* Assets.xcassets */,
 				E78935D12786AD5A00B7686C /* LaunchScreen.storyboard */,
@@ -151,6 +154,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E78935CB2786AD5900B7686C /* ViewController.swift in Sources */,
+				E78935DE2787E57A00B7686C /* DecorateLabel.swift in Sources */,
 				E78935C72786AD5900B7686C /* AppDelegate.swift in Sources */,
 				E78935C92786AD5900B7686C /* SceneDelegate.swift in Sources */,
 			);
